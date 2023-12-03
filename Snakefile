@@ -1,3 +1,11 @@
+# Listing of a target that we want snakemake to generate
+rule targets:
+  input:
+    "data/ghcnd_all.tar.gz",
+    "data/ghcnd_all_files.txt",
+    "data/ghcnd-inventory.txt",
+    "data/ghcnd-stations.txt"
+
 rule get_all_achieve:
   input:
     script = "code/get_ghcnd_data.bash"
