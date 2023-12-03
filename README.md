@@ -9,3 +9,7 @@ A repository for a project to practice reproducible research practices while stu
 2. How to write a bash script for your reproducible data analysis pipeline 
    (Script: get_ghcnd_all_file.bash and driver.bash). 
    Follow the link CC247 --> https://www.youtube.com/watch?v=Ft8ayhfgaqo&t=1352s
+
+## Snake file and rules
+1. An introduction to Snakemake tutorial for beginners (Script: Snakefile). 
+   Follow the link CC248 --> https://www.youtube.com/watch?v=r9PWnEmz_tc
