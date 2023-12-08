@@ -6,7 +6,7 @@ rule targets:
     "data/ghcnd-inventory.txt",
     "data/ghcnd-stations.txt"
 
-rule get_all_achieve:
+rule get_all_archive:
   input:
     script = "code/get_ghcnd_data.bash"
   output:
@@ -21,7 +21,7 @@ rule get_all_achieve:
 rule get_all_filenames:
   input:
     script = "code/get_ghcnd_all_files.bash",
-    achieve = "data/ghcnd_all.tar.gz"
+    archive = "data/ghcnd_all.tar.gz"
   output:
     "data/ghcnd_all_files.txt"
   shell:
